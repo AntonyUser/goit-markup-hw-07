@@ -1,0 +1,38 @@
+.main-tasks {
+    &__list {
+        display: flex;
+    }
+    &__item {
+        flex-basis: calc((100% - 30) / 4);
+    }
+    &__item+&__item {
+        margin-left: 30px;
+    }
+    &__container {
+        display: flex;
+        height: 120px;
+        background-color: var(--secondary-background-color);
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    &__title {
+        margin-bottom: 10px;
+        font-weight: 700;
+        font-size: var(--text-font-size);
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: var(--primary-text-color);
+    }
+    &__text {
+        font-weight: 400;
+        font-size: var(--text-font-size);
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: var(--secondary-text-color);
+    }
+}
+
+
+/* для display:flex вместо width нужно использовать flex-basis */
