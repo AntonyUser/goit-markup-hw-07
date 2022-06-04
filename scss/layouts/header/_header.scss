@@ -1,0 +1,12 @@
+.header {
+    border-bottom: 1px solid #ececec;
+    & .container {
+        @extend %FlexCentered;
+    }
+}
+
+@import './nav';
+@import './contact-us';
+.logo--header {
+    color: var(--primary-text-color);
+}

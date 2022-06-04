@@ -1,7 +1,5 @@
 .socials {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %FlexCentered;
     &__item {
         display: flex;
         background-color: var(--hero-text-color);
@@ -12,9 +10,7 @@
         margin-right: 10px;
     }
     &__link {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @extend %FlexCentered;
         width: 44px;
         height: 44px;
         border-radius: 50%;
@@ -25,5 +21,8 @@
     &__link:focus {
         background-color: var(--accent-color);
         color: var(--hero-text-color);
+    }
+    &__logo {
+        fill: currentColor;
     }
 }
