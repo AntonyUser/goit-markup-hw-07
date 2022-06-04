@@ -3,10 +3,13 @@
     & .container {
         @extend %FlexCentered;
     }
+    &__logo {
+        color: var(--primary-text-color);
+    }
+    &__logo--right-margin {
+        margin-right: 93px;
+    }
 }
 
 @import './nav';
 @import './contact-us';
-.logo--header {
-    color: var(--primary-text-color);
-}

@@ -340,7 +340,6 @@ body {
 }
 
 .logo {
-  margin-right: 93px;
   font-family: var(--secondary-font-family);
   font-weight: 700;
   font-size: 26px;
@@ -351,7 +350,6 @@ body {
 .connect-us {
   width: 206px;
   height: 80px;
-  margin-right: 93px;
 }
 
 .connect-us .list {
@@ -477,6 +475,14 @@ body {
   border-bottom: 1px solid #ececec;
 }
 
+.header__logo {
+  color: var(--primary-text-color);
+}
+
+.header__logo--right-margin {
+  margin-right: 93px;
+}
+
 .nav__item + .nav__item {
   margin-left: 50px;
 }
@@ -538,10 +544,6 @@ body {
 .contact-us__icons {
   fill: currentColor;
   margin-right: 10px;
-}
-
-.logo--header {
-  color: var(--primary-text-color);
 }
 
 .hero {
@@ -936,6 +938,10 @@ body {
 .footer .logo {
   display: inline-block;
   margin-bottom: 20px;
+}
+
+.footer__connect-us {
+  margin-right: 93px;
 }
 
 .address__item .address__office {
