@@ -13,16 +13,18 @@
     & .container {
         max-width: 696px;
     }
-    &__title {
-        margin-bottom: 30px;
-        @include Fonts(900, 44px, 1.36);
-        text-align: center;
-        letter-spacing: 0.06em;
-        text-transform: uppercase;
-    }
-    &__btn {
-        display: inline-block;
-        padding: 10px 32px;
-        border: none;
-    }
+}
+
+.hero__title {
+    margin-bottom: 30px;
+    @include Fonts(900, 44px, 1.36);
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.hero__btn {
+    display: inline-block;
+    padding: 10px 32px;
+    border: none;
 }
