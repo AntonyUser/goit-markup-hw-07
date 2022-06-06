@@ -538,7 +538,6 @@ body {
 
 .header__logo {
   margin-right: 93px;
-  color: var(--primary-text-color);
 }
 
 .nav__item + .nav__item {
